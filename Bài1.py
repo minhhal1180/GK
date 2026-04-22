@@ -1,7 +1,7 @@
 def nhap_ds():
     ds = []
     while True:
-        ten = input("Ten mon (x thoat): ").strip()
+        ten = input("Ten mon (x)").strip()
         if ten.lower() == "x":
             break
 

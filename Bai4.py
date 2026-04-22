@@ -22,7 +22,7 @@ def choi():
         print(f"Ky luc: {k}")
 
     for l in range(1, max_l + 1):
-        s = input(f"\n{l}/{max_l} So (x thoat): ").strip().lower()
+        s = input(f"\n{l}/{max_l} So (x): ").strip().lower()
         if s == "x":
             return False
         try:

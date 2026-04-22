@@ -12,7 +12,7 @@ def main():
     print(f"Tong: ${sum(dt.values()):,.2f}")
 
     x, y = list(sl), list(sl.values())
-    bars = plt.bar(x, y, color=["#4C72B0", "#55A868", "#C44E52"])
+    bars = plt.bar(x, y, color=["#5081D0", "#4BC367", "#8F4749"])
     plt.title("So luong da ban")
     plt.grid(axis="y", linestyle="--", alpha=0.7)
     for b in bars:
